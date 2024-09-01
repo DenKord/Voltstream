@@ -1,0 +1,622 @@
+@media  (min-width:769px) and (max-width:1024px) {
+    .consultation {
+        padding: 4% 25px;
+    }
+    .men {
+        max-width: 30%;
+        top:-20%;
+    }
+    .specically {
+        background-size: cover;
+    }
+    
+    .work__item h3 {
+        position: absolute;
+        font-size: 30px;
+        right: 15px;
+    }
+    .work__item p {
+        padding-left: 6%;
+        font-size: 16px;
+    }
+    .work__item {
+        padding: 2% 0;
+        position: relative;
+        width: 300px;
+    }
+    img {
+        max-width: 95%;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .nemu p {
+        padding-left: 3%;
+    }
+    .nemu>li {
+        padding: 4%;
+        width: 470px;
+    }
+    .map {
+        max-height: 500px;
+    }
+    .footer__content  {
+        right: 35%;
+    }
+    .calculation__img {
+        top: -5%;
+        right: -22%;
+    }
+    .calculation__img img {
+        max-width: 80%;
+    }
+    .calculation__text a {
+        font-size: 18px;
+    }
+    .calculation__text p {
+        font-size: 18px;
+    }
+    .calculation__text h1 {
+        font-size: 34px;
+    }
+    .call p {
+        font-size: 12px;
+    }
+    .tel h3 {
+        font-size: 17px;
+    }
+    .header__menu li {
+        margin-right: 35px;
+        font-size: 17px;
+    }
+
+}
+@media  (min-width:426px) and (max-width:768px) {
+    .consultation__content  {
+        margin-right: 6%;
+    }
+    .consultation__container {
+        padding-right: 0;
+    }
+    .consultation__inputs input {
+        padding-left: 2%;
+        max-width: 140px;
+    }
+    .consultation__inputs  a{
+        padding: 3% 8%;
+    }
+    #telefhon {
+        max-width: 150px;
+    }
+    .consultation  {
+        padding: 8% 3%;
+    }
+    .men {
+        max-height: 115%;
+        top: -15%;
+        left: 1.5%;
+    }
+    .consultation__inputs input {
+        font-size: 16px;
+    }
+    .answers__container {
+        height: 350px;
+    }
+    .answers {
+        background-size: auto;
+    }
+    .sub-menu {
+        top: 0;
+        padding-top: 30px;
+    }
+    .nemu>li img {
+        max-width: 4%;
+    }
+    .nemu>li {
+        width: 350px;
+    }
+    .nemu h3 {
+        font-size: 14px;
+    }
+    .nemu p {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .map {
+        max-height: 440px;
+    }
+    .arrows svg {
+        margin-left: 30px;
+    }
+    img {
+        max-width: 90%;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .logo {
+        display: none;
+    }
+    .menu__list a {
+        font-size: 14px;
+    }
+    .calculation__img {
+        right:-53%;
+        top: 0;
+    }
+    .qulity__block p {
+        font-size: 11px;
+        line-height: 10px;
+
+    }
+    .calculation__img img {
+        max-width: 60%;
+    }
+    .header__menu li {
+        margin-right: 35px;
+    }
+    .calculation__text h1 {
+        font-size: 24px;
+    }
+    .calculation__text p {
+        font-size: 16px;
+    }
+    .calculation__text a {
+        font-size: 18px;
+    }
+    .qulity__block img {
+        max-width: 18px;
+
+    }
+    .text__item p {
+        font-size: 13px;
+    }
+    .specically__text {
+        width: 165px;
+    }
+    .specically__text img {
+        display: none;
+    }
+    .specically__item img {
+        max-width: 45%;
+    }
+    .specically__item h3 {
+        font-size: 17px;
+    }
+    .specically {
+        background-size: cover;
+    }
+    .help img {
+        max-width: 90%;
+    }
+    .footer__content {
+        right: 25%;
+    }
+    .wrok__text {
+        position: relative;
+        width: 231px;
+        padding: 2% 0;
+    }
+    .work__item  {
+        width: 230px;
+        padding: 1%;
+    }
+    .work__item p {
+        padding-left:0%;
+        font-size: 14px;
+        
+    }
+
+    .work__item h3 {
+        font-size: 20px;
+        position: absolute;
+        right: 10%;
+    }
+
+}
+@media  (max-width:425px) {
+    .header__menu li {
+        margin-bottom: 5%;
+    }
+    .header__menu {
+        display: block;
+        
+    }
+    .header__menu ul {
+        padding-top: 25%;
+        padding-left: 7%;
+    }
+    .menu__list {
+        flex-direction: column;
+    }
+    .menu__icon {
+        z-index: 5;
+        display: block;
+        width: 18px;
+        height: 16px;
+        position: relative;
+    }
+    .menu__icon span,
+    .menu__icon::after,
+    .menu__icon::before {
+        left: 0;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        transition: all 0.3s ease 0s;
+    }
+    .menu__icon::after,
+    .menu__icon::before {
+        content: "";
+    }
+    .menu__icon::before {
+        top: 0;
+    }
+    .menu__icon::after {
+        bottom: 0;
+    }
+    .menu__icon span {
+        top: 50%;
+        transform: scale(1) translate(0,-50%);
+    }
+    .menu__body {
+        z-index: 4;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0.896796218487395) 0%, rgba(0,0,0,0.95) 100%);
+        transition: top 0.5s ease 0s;
+    }
+    .menu__icon.active span {
+        transform: scale(0) translate(0,-50%);
+    }
+    .menu__icon.active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0,50%);
+    }   
+    .menu__icon.active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0,-50%);
+    }   
+
+    .menu__body.active {
+        top: 0;
+    }   
+
+    .logo {
+        z-index: 5;
+    }
+    .menu__list a{
+        font-size: 24px;
+    }
+
+    .consultation__content p {
+        display: block;
+    }
+    .map {
+        height: 230px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer__content {
+        padding: 10% 5%;
+        text-align: center;
+        position: sticky;
+        transform: translate(0,0);
+        border-radius: 0;
+    }
+    .consultation__content {
+        max-width: 375px;
+        margin-right: 0;
+    }
+    .consultation__container {
+        border: none;
+        border-radius: 0px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom:1px solid rgba(255, 255, 255, 0.3) ;
+
+    }
+    
+    .answers__container h2 {
+        margin-bottom: 0;
+    }
+    .answers__list {
+        align-items: center;
+    }
+    .answers {
+        padding-top: 10%;
+    }
+    .answers__container {
+        height: 400px;
+    }
+    .sub-menu {
+        padding-top: 23px;
+        top: 20px;
+    }
+    .nemu img {
+        width: 10px;
+        height: 6px;
+    }
+    .nemu>li {
+        width: 280px;
+        padding: 4% 5;
+    }
+    .nemu p {
+        padding: 2.5%;
+        font-size: 11px;
+        padding-top: 0;
+    }
+    .nemu h3 {
+        line-height: 16px;
+        font-size: 11px;
+    }
+    .answers__list {
+        flex-direction: column;
+    }
+    .answers {
+        background-size: 270%;
+    }
+    .center br {
+        display: none;
+    }
+    .consultation__content br {
+        display: none;
+    }
+    .consultation__content h2 {
+        margin-top: 2%;
+        text-align: left;
+    }
+    .consultation__content {
+        
+        padding-bottom: 9%;
+    }
+    .consultation__inputs {
+        flex-direction: column;
+    }
+    .consultation__content a {
+        padding: 4% 7%;
+        max-width: 375px;
+    }
+    .consultation__inputs input {
+        margin-right: 0;
+        margin-bottom: 3%;
+        padding: 4% 7%;
+        max-width: 375px;
+    }
+    .consultation {
+        padding-top: 65%;
+        padding-bottom: 12%;
+        background-size: cover;
+    }
+    .consultation__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .men__mob {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: -27%;
+        display: block;
+        position: absolute;
+    }
+    .men {
+        display: none;
+    }
+
+    .slider__up {
+        justify-content: center;
+    }
+    .arrows svg {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .slider__review {
+        margin-bottom: 18%;
+    }
+    .slider__container {
+        position: relative;
+    }
+    .arrows {
+        top: 108%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+    .work {
+        padding: 10% 0;
+        background-size: cover;
+    }
+    .work__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrok__text {
+        width: 260px;
+        padding: 0 4%;
+    }
+    .work__item {
+        width: 270px;
+    }
+    .work__item h3 {
+        font-size: 19px;
+    }
+    .work__item p {
+        font-size: 14px;
+        padding-left: 4%;
+    }
+    .help {
+        padding-top: 6%;
+        padding-bottom: 10%;
+    }
+    .help img {
+        width: 80%;
+    }
+    .specically__text {
+        width: 100%;
+        align-items: center;
+    }
+    .specically__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .specically__item h3 {
+        margin: 5% 0;
+        font-size: 18px;
+        text-align: center;
+        width: 230px;
+    }
+    .text__item {
+        display: block;
+    }
+    .text__item p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .specically__item img {
+        margin: 0;
+    }
+    .specically__container h2 {
+        margin-bottom: 8%;
+    }
+    .specically {
+        padding: 12% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-size: cover;
+    }
+    .specically__item {
+        display: block;
+        width: 230px;
+    }
+    .text__item img {
+        display: none;
+    }
+    h2 {
+        margin-bottom: 7%;
+        text-align: center;
+        font-size:  21px
+    }
+    .calculation__container {       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qulity {
+        border-radius: 12px;
+        background-image: url(img/bcAdaptiv.png);
+        /* background-size: 200%; */
+        background-repeat: no-repeat;
+        flex-direction: column;
+        align-items: center;
+        padding: 12%;
+    }
+    .qulity__block {
+        padding-left: 9.5%;
+        width: 130px;
+        margin-top: 12%;
+    }
+    .qulity {
+        margin-top: 0;
+    }
+    .calculation__text a{
+        font-size: 18px;
+        margin-bottom: -5%;
+    }
+    .calculation__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculation__text h1{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 4%
+    }
+    .specically__block {
+        flex-direction: column;
+    }
+    .calculation__text p {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 13%;
+    }
+    .header__container {
+        height: 80px;
+    }
+    
+    .calculation__img {
+        position: static;
+    }
+
+    .call {
+        display: none;
+    }
+    body {
+        background: linear-gradient(84.42deg, #83A4BD -18.33%, #A5A2B3 6.53%, 
+        #BA929B 23.44%, #BD8689 36.02%, #C46F6A 51.29%, #C65857 66.19%, 
+        #BF4145 84.44%, #9C2E37 104.29%, #7A262E 121.87%, #5B1E23 142.75%, 
+        #421F23 158.93%, #2D1C22 172.58%);
+    }
+} 
+@media (max-width:375px) {
+    .consultation  {
+        padding-top: 72%;
+    }
+    .men__mob {
+        top: -28.6%;
+    }
+}
+@media (max-width:320px) {
+    .calculation__img img {
+        max-width: 100%;
+    }
+    .calculation__container {
+        margin-bottom: 10%;
+    }
+    .consultation {
+        padding-top: 85%;
+    }
+    .men__mob {
+        padding-bottom: 17px;
+    }
+    .consultation__content h2 {
+        margin-top: 5%;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    .calculation__text h1{
+        font-size: 19px;
+        text-align: center;
+    }
+    .calculation__text p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .header__container {
+        height: 80px;
+    }
+    .burger {
+        display: block;
+    }
+    .calculation__btn {
+        position: static;
+    }
+
+    .call {
+        display: none;
+    }
+}
